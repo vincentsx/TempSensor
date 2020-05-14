@@ -1,0 +1,29 @@
+mqtt\sys.o: ../Src/sys.c
+mqtt\sys.o: ../Inc/sys.h
+mqtt\sys.o: ../Inc/main.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+mqtt\sys.o: ../Inc/stm32f1xx_hal_conf.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+mqtt\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+mqtt\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+mqtt\sys.o: ../Drivers/CMSIS/Include/core_cm3.h
+mqtt\sys.o: D:\Program Files (x86)\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+mqtt\sys.o: ../Drivers/CMSIS/Include/cmsis_version.h
+mqtt\sys.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+mqtt\sys.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+mqtt\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+mqtt\sys.o: D:\Program Files (x86)\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+mqtt\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
