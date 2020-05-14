@@ -159,7 +159,8 @@ int main(void)
 	
 //	HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
 //	HAL_Delay(3000);
-	HAL_UART_Transmit(&huart2, (uint8_t *)"AT+IPPORT=\"120.131.1.163\",1883\r\n", 32, 0xFFFF);
+//这里请填写自己的MQTT服务器的IP地址
+	HAL_UART_Transmit(&huart2, (uint8_t *)"AT+IPPORT=\"xxxx.xxxx.xxxx.xxxx\",1883\r\n", 32, 0xFFFF);
 	HAL_Delay(3000);
 	HAL_UART_Transmit(&huart2, (uint8_t *)"AT+USERPWD=\"abcde\",\"abcde\"\r\n", 28, 0xFFFF);
 	HAL_Delay(10000);
